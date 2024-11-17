@@ -1,0 +1,152 @@
+/* Container styles */
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    color: #212529;
+}
+
+/* Heading styles */
+.container h2 {
+    font-size: 2rem;
+    color: #343a40; /* Dark gray for the heading */
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Alert messages */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Table styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #dee2e6;
+    text-align: left;
+    background-color: #ffffff; /* White background */
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    border: 1px solid #dee2e6; /* Light gray border */
+    text-align: center;
+}
+
+.table th {
+    background-color: #e9ecef; /* Light gray header background */
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f8f9fa; /* Light alternating rows */
+}
+
+.table tbody tr:hover {
+    background-color: #e2e6ea; /* Slightly darker hover effect */
+}
+
+/* Button styles */
+.btn {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Input field styles */
+.form-control {
+    font-size: 0.9rem;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    width: 100%;
+    max-width: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+/* Trash icon styles */
+.fas.fa-trash {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #dc3545; /* Red color */
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.fas.fa-trash:hover {
+    color: #c82333;
+    transform: scale(1.1);
+}
+
+/* Action buttons alignment */
+.table td button,
+.table td .form-control {
+    display: inline-block;
+    margin-right: 10px;
+}
